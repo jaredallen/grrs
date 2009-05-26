@@ -1,0 +1,105 @@
+* Block Type = 96fast				
+* Chemistry = TAQMAN				
+* Experiment File Name = C:\Applied Biosystems\7500\experiments\Mock Five SNP test.eds				
+* Experiment Run End Time = 2009-05-09 20:52:47 PM PDT				
+* Instrument Type = sds7500fast				
+* Passive Reference = ROX				
+				
+[Results]				
+Well	Sample Name	SNP Assay Name	Call	Comments
+A1				
+A2				
+A3				
+A4				
+A5				
+A6				
+A7	Customer ID 1	rs1051266	homozygous 1/1	
+A8	Customer ID 1	rs2070744	homozygous 2/2	
+A9	Customer ID 1	rs662799	homozygous 1/1	
+A10	Customer ID 1	rs670	heterozygous 1/2	
+A11	Customer ID 1	rs731236	homozygous 1/1	
+A12				
+B1				
+B2				
+B3				
+B4				
+B5				
+B6				
+B7	Customer ID 2	rs1051266	homozygous 2/2	
+B8	Customer ID 2	rs2070744	heterozygous 1/2	
+B9	Customer ID 2	rs662799	heterozygous 1/2	
+B10	Customer ID 2	rs670	homozygous 1/1	
+B11	Customer ID 2	rs731236	homozygous 1/1	
+B12				
+C1				
+C2				
+C3				
+C4				
+C5				
+C6				
+C7	Customer ID 3	rs1051266	heterozygous 1/2	
+C8	Customer ID 3	rs2070744	homozygous 1/1	
+C9	Customer ID 3	rs662799	homozygous 1/1	
+C10	Customer ID 3	rs670	heterozygous 1/2	
+C11	Customer ID 3	rs731236	heterozygous 1/2	
+C12				
+D1				
+D2				
+D3				
+D4				
+D5				
+D6				
+D7	Customer ID 4	rs1051266	homozygous 1/1	
+D8	Customer ID 4	rs2070744	homozygous 2/2	
+D9	Customer ID 4	rs662799	homozygous 1/1	
+D10	Customer ID 4	rs670	heterozygous 1/2	
+D11	Customer ID 4	rs731236	homozygous 1/1	
+D12				
+E1				
+E2				
+E3				
+E4				
+E5				
+E6				
+E7	Customer ID 5	rs1051266	homozygous 1/1	
+E8	Customer ID 5	rs2070744	heterozygous 1/2	
+E9	Customer ID 5	rs662799	heterozygous 1/2	
+E10	Customer ID 5	rs670	heterozygous 1/2	
+E11	Customer ID 5	rs731236	homozygous 2/2	
+E12				
+F1				
+F2				
+F3				
+F4				
+F5				
+F6				
+F7	NTC	rs1051266	Negative Control (NC)	
+F8	NTC	rs2070744	Negative Control (NC)	
+F9	NTC	rs662799	Negative Control (NC)	
+F10	NTC	rs670	Negative Control (NC)	
+F11	NTC	rs731236	Negative Control (NC)	
+F12				
+G1				
+G2				
+G3				
+G4				
+G5				
+G6				
+G7				
+G8				
+G9				
+G10				
+G11				
+G12				
+H1				
+H2				
+H3				
+H4				
+H5				
+H6				
+H7				
+H8				
+H9				
+H10				
+H11				
+H12				
