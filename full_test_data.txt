@@ -1,0 +1,105 @@
+* Block Type = 96fast
+* Chemistry = TAQMAN
+* Experiment File Name = C:\Applied Biosystems\7500\experiments\052709 TEST.eds
+* Experiment Run End Time = 2009-05-27 14:32:23 PM PDT
+* Instrument Type = sds7500fast
+* Passive Reference = ROX
+
+[Results]
+Well	Sample Name	SNP Assay Name	Task	Allele1 ΔRn	Allele2 ΔRn	Pass.Ref	Quality(%)	Call	Method	Allele1 Automatic Ct Threshold	Allele1 Ct Threshold	Allele1 Automatic Baseline	Allele1 Baseline Start	Allele1 Baseline End	Allele2 Automatic Ct Threshold	Allele2 Ct Threshold	Allele2 Automatic Baseline	Allele2 Baseline Start	Allele2 Baseline End	Comments	AMPNC	NOAMP
+A1	Customer 1	rs1051266	UNKNOWN	-0.0736	-0.1353	452660.0312	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+A2	Customer 1	rs2070744	UNKNOWN	0.1491	2.676	437246.625	99.9994	Homozygous 2/2	Auto	true	0.0231	true	3	28	true	0.053	true	3	21		N	N
+A3	Customer 1	rs662799	UNKNOWN	-0.0882	-0.4967	467820.8438	0	Undetermined	Auto	true	0.0138	true	3	39	true	0.1197	true	3	39		N	N
+A4	Customer 1	rs670	UNKNOWN	0.019	0.8837	424378.5625	0	Undetermined	Auto	true	0.0169	true	3	34	true	0.0597	true	3	27		N	N
+A5	Customer 1	rs731236	UNKNOWN	-0.1087	-0.4833	447327.2188	0	Undetermined	Auto	true	0.01	true	3	4	true	0.0024	true	3	39		N	N
+A6	Customer 9	rs1051266	UNKNOWN	0.0812	-0.0174	444101.2812	0	Undetermined	Auto	true	0.0439	true	3	33	true	0.0317	true	3	34		N	N
+A7	Customer 9	rs2070744	UNKNOWN	-0.0203	-0.0665	446958.4375	68.6575	Undetermined	Auto	true	0.0231	true	3	39	true	0.053	true	3	39		N	Y
+A8	Customer 9	rs662799	UNKNOWN	0.3379	0.123	472897.875	0	Undetermined	Auto	true	0.0138	true	3	26	true	0.1197	true	3	25		N	N
+A9	Customer 9	rs670	UNKNOWN	0.5597	0.4155	438713.9062	0	Undetermined	Auto	true	0.0169	true	3	29	true	0.0597	true	3	28		N	N
+A10	Customer 9	rs731236	UNKNOWN	-0.1374	-0.4905	455544.6875	0	Undetermined	Auto	true	0.01	true	3	39	true	0.0024	true	3	39		N	N
+A11																					N	N
+A12	NTC	rs1051266	NTC	-0.076	-0.1248	487694.9062	100	Negative Control (NC)	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	N
+B1	Customer 2	rs1051266	UNKNOWN	-0.089	-0.1468	449775.375	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+B2	Customer 2	rs2070744	UNKNOWN	0.1082	2.5154	460277.9375	99.6055	Homozygous 2/2	Auto	true	0.0231	true	3	32	true	0.053	true	3	25		N	N
+B3	Customer 2	rs662799	UNKNOWN	-0.0238	-0.5165	489841	0	Undetermined	Auto	true	0.0138	true	3	32	true	0.1197	true	3	39		N	N
+B4	Customer 2	rs670	UNKNOWN	-0.0956	-0.2198	484707.2812	0	Undetermined	Auto	true	0.0169	true	3	39	true	0.0597	true	3	35		N	N
+B5	Customer 2	rs731236	UNKNOWN	-0.1339	-0.4727	439087.2812	0	Undetermined	Auto	true	0.01	true	3	39	true	0.0024	true	3	39		N	N
+B6	Customer 10	rs1051266	UNKNOWN	-0.0764	-0.1217	447852.4688	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+B7	Customer 10	rs2070744	UNKNOWN	1.2652	1.7773	425366.7812	99.5715	Heterozygous 1/2	Auto	true	0.0231	true	3	25	true	0.053	true	3	25		N	N
+B8	Customer 10	rs662799	UNKNOWN	0.2226	-0.5127	470573.125	0	Undetermined	Auto	true	0.0138	true	3	29	true	0.1197	true	3	39		N	N
+B9	Customer 10	rs670	UNKNOWN	-0.1121	-0.2425	452852.625	0	Undetermined	Auto	true	0.0169	true	3	39	true	0.0597	true	3	39		N	Y
+B10	Customer 10	rs731236	UNKNOWN	-0.1084	-0.4459	445599.0625	0	Undetermined	Auto	true	0.01	true	3	39	true	0.0024	true	3	39		N	N
+B11																					N	N
+B12	NTC	rs2070744	NTC	-0.0573	0.2093	432788.4375	100	Negative Control (NC)	Auto	true	0.0231	true	3	39	true	0.053	true	3	34		N	N
+C1	Customer 3	rs1051266	UNKNOWN	-0.0814	-0.1373	316465.4375	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+C2	Customer 3	rs2070744	UNKNOWN	0.1564	2.6776	471353.7812	99.9995	Homozygous 2/2	Auto	true	0.0231	true	3	26	true	0.053	true	3	21		N	N
+C3	Customer 3	rs662799	UNKNOWN	0.13	-0.4956	455878.5938	0	Undetermined	Auto	true	0.0138	true	3	30	true	0.1197	true	3	39		N	N
+C4	Customer 3	rs670	UNKNOWN	-0.1126	-0.2382	462250.2812	0	Undetermined	Auto	true	0.0169	true	3	39	true	0.0597	true	3	39		N	Y
+C5	Customer 3	rs731236	UNKNOWN	-0.1353	-0.4677	444648.2188	0	Undetermined	Auto	true	0.01	true	3	5	true	0.0024	true	3	39		N	N
+C6	Customer 11	rs1051266	UNKNOWN	-0.0915	-0.1404	436122.2188	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+C7	Customer 11	rs2070744	UNKNOWN	1.2985	1.9338	461269.5	99.9903	Heterozygous 1/2	Auto	true	0.0231	true	3	23	true	0.053	true	3	23		N	N
+C8	Customer 11	rs662799	UNKNOWN	0.091	-0.4831	436718	0	Undetermined	Auto	true	0.0138	true	3	31	true	0.1197	true	3	39		N	N
+C9	Customer 11	rs670	UNKNOWN	-0.0903	-0.2205	431617.8125	0	Undetermined	Auto	true	0.0169	true	3	39	true	0.0597	true	3	39		N	Y
+C10	Customer 11	rs731236	UNKNOWN	-0.1335	-0.4535	429701	0	Undetermined	Auto	true	0.01	true	3	39	true	0.0024	true	3	39		N	Y
+C11																					N	N
+C12	NTC	rs662799	NTC	0.0303	-0.421	419867.4688	100	Negative Control (NC)	Auto	true	0.0138	true	3	32	true	0.1197	true	3	39		Y	N
+D1	Customer 4	rs1051266	UNKNOWN	-0.0807	-0.1363	372876.3438	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+D2	Customer 4	rs2070744	UNKNOWN	0.12	2.4217	437914.6875	99.1613	Homozygous 2/2	Auto	true	0.0231	true	3	29	true	0.053	true	3	23		N	N
+D3	Customer 4	rs662799	UNKNOWN	-0.1036	-0.4951	424176.2812	0	Undetermined	Auto	true	0.0138	true	3	39	true	0.1197	true	3	39		N	N
+D4	Customer 4	rs670	UNKNOWN	-0.1159	-0.2462	391615.375	0	Undetermined	Auto	true	0.0169	true	3	39	true	0.0597	true	3	39		N	Y
+D5	Customer 4	rs731236	UNKNOWN	-0.1306	-0.4622	403531.4688	0	Undetermined	Auto	true	0.01	true	3	39	true	0.0024	true	3	39		N	N
+D6	Customer 12	rs1051266	UNKNOWN	-0.1023	-0.1503	386447.6875	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+D7	Customer 12	rs2070744	UNKNOWN	0.1938	2.6613	415700.2812	99.9313	Homozygous 2/2	Auto	true	0.0231	true	3	27	true	0.053	true	3	22		N	N
+D8	Customer 12	rs662799	UNKNOWN	-0.0505	-0.5169	402538.2812	0	Undetermined	Auto	true	0.0138	true	3	34	true	0.1197	true	3	39		N	N
+D9	Customer 12	rs670	UNKNOWN	-0.1091	-0.2323	399383.625	0	Undetermined	Auto	true	0.0169	true	3	39	true	0.0597	true	3	39		N	Y
+D10	Customer 12	rs731236	UNKNOWN	-0.1137	-0.4387	379884.125	0	Undetermined	Auto	true	0.01	true	3	39	true	0.0024	true	3	39		N	N
+D11																					N	N
+D12	NTC	rs670	NTC	-0.1011	-0.2428	348498	100	Negative Control (NC)	Auto	true	0.0169	true	3	39	true	0.0597	true	3	39		N	N
+E1	Customer 5	rs1051266	UNKNOWN	-0.0669	-0.1114	350244.8438	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+E2	Customer 5	rs2070744	UNKNOWN	0.0862	2.4337	383460.25	99.102	Homozygous 2/2	Auto	true	0.0231	true	3	28	true	0.053	true	3	23		N	N
+E3	Customer 5	rs662799	UNKNOWN	-0.1189	-0.4885	374491.6875	0	Undetermined	Auto	true	0.0138	true	3	39	true	0.1197	true	3	39		N	N
+E4	Customer 5	rs670	UNKNOWN	-0.1143	-0.2485	341549.2188	0	Undetermined	Auto	true	0.0169	true	3	39	true	0.0597	true	3	39		N	Y
+E5	Customer 5	rs731236	UNKNOWN	-0.1122	-0.44	326839.7812	0	Undetermined	Auto	true	0.01	true	3	39	true	0.0024	true	3	39		N	N
+E6	Customer 13	rs1051266	UNKNOWN	-0.0875	-0.1331	341739.75	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+E7	Customer 13	rs2070744	UNKNOWN	1.5027	-0.1307	359417.3125	100	Homozygous 1/1	Auto	true	0.0231	true	3	23	true	0.053	true	3	39		N	N
+E8	Customer 13	rs662799	UNKNOWN	-0.0863	-0.4949	347371.6562	0	Undetermined	Auto	true	0.0138	true	3	38	true	0.1197	true	3	39		N	N
+E9	Customer 13	rs670	UNKNOWN	-0.1065	-0.2432	346437.6875	0	Undetermined	Auto	true	0.0169	true	3	39	true	0.0597	true	3	39		N	Y
+E10	Customer 13	rs731236	UNKNOWN	-0.1337	-0.4576	375874.5312	0	Undetermined	Auto	true	0.01	true	3	39	true	0.0024	true	3	39		N	N
+E11																					N	N
+E12	NTC	rs731236	NTC	-0.1209	-0.4563	383558.9375	100	Negative Control (NC)	Auto	true	0.01	true	3	39	true	0.0024	true	3	39		N	N
+F1	Customer 6	rs1051266	UNKNOWN	-0.0864	-0.1333	399774.7188	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+F2	Customer 6	rs2070744	UNKNOWN	1.3526	1.966	352991.7188	99.8476	Heterozygous 1/2	Auto	true	0.0231	true	3	22	true	0.053	true	3	22		N	N
+F3	Customer 6	rs662799	UNKNOWN	-0.0754	-0.4893	393731.3438	0	Undetermined	Auto	true	0.0138	true	3	4	true	0.1197	true	3	39		N	N
+F4	Customer 6	rs670	UNKNOWN	-0.1211	-0.2595	360282.6875	0	Undetermined	Auto	true	0.0169	true	3	39	true	0.0597	true	3	39		N	Y
+F5	Customer 6	rs731236	UNKNOWN	-0.1128	-0.442	366286.3438	0	Undetermined	Auto	true	0.01	true	3	39	true	0.0024	true	3	39		N	Y
+F6	Customer 14	rs1051266	UNKNOWN	-0.0959	-0.1498	344225.625	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+F7	Customer 14	rs2070744	UNKNOWN	0.1587	2.7415	392065.6562	99.9437	Homozygous 2/2	Auto	true	0.0231	true	3	28	true	0.053	true	3	23		N	N
+F8	Customer 14	rs662799	UNKNOWN	0.574	-0.3268	303306.6562	0	Undetermined	Auto	true	0.0138	true	3	25	true	0.1197	true	3	39		N	N
+F9	Customer 14	rs670	UNKNOWN	-0.1144	-0.2477	376733.5938	0	Undetermined	Auto	true	0.0169	true	3	39	true	0.0597	true	3	39		N	Y
+F10	Customer 14	rs731236	UNKNOWN	-0.137	-0.4688	404481.0938	0	Undetermined	Auto	true	0.01	true	3	39	true	0.0024	true	3	39		N	N
+F11																					N	N
+F12																					N	N
+G1	Customer 7	rs1051266	UNKNOWN	-0.092	-0.1419	438155.9375	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+G2	Customer 7	rs2070744	UNKNOWN	0.2165	2.8111	453653.6875	99.6267	Homozygous 2/2	Auto	true	0.0231	true	3	25	true	0.053	true	3	20		N	N
+G3	Customer 7	rs662799	UNKNOWN	0.3649	-0.5241	407746.875	0	Undetermined	Auto	true	0.0138	true	3	28	true	0.1197	true	3	39		N	N
+G4	Customer 7	rs670	UNKNOWN	-0.059	-0.2606	385019.0938	0	Undetermined	Auto	true	0.0169	true	3	35	true	0.0597	true	3	39		N	N
+G5	Customer 7	rs731236	UNKNOWN	-0.1615	-0.5082	413759.2812	0	Undetermined	Auto	true	0.01	true	3	39	true	0.0024	true	3	39		N	N
+G6	Customer 15	rs1051266	UNKNOWN	-0.0809	-0.1348	397263.7188	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+G7	Customer 15	rs2070744	UNKNOWN	1.5225	-0.1334	412852.8438	99.9998	Homozygous 1/1	Auto	true	0.0231	true	3	23	true	0.053	true	3	39		N	N
+G8	Customer 15	rs662799	UNKNOWN	0.1923	-0.5251	407065.4375	0	Undetermined	Auto	true	0.0138	true	3	30	true	0.1197	true	3	39		N	N
+G9	Customer 15	rs670	UNKNOWN	-0.0718	-0.2335	415349.6562	0	Undetermined	Auto	true	0.0169	true	3	39	true	0.0597	true	3	39		N	Y
+G10	Customer 15	rs731236	UNKNOWN	-0.0943	-0.4157	400990.9688	0	Undetermined	Auto	true	0.01	true	3	39	true	0.0024	true	3	39		N	Y
+G11																					N	N
+G12																					N	N
+H1	Customer 8	rs1051266	UNKNOWN	-0.0823	-0.139	466066.75	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+H2	Customer 8	rs2070744	UNKNOWN	1.5106	0.2774	468556.4688	99.9838	Homozygous 1/1	Auto	true	0.0231	true	3	23	true	0.053	true	3	26		N	N
+H3	Customer 8	rs662799	UNKNOWN	0.4848	-0.5212	447201.9688	0	Undetermined	Auto	true	0.0138	true	3	26	true	0.1197	true	3	39		N	N
+H4	Customer 8	rs670	UNKNOWN	-0.0742	0.244	420431.5938	0	Undetermined	Auto	true	0.0169	true	3	34	true	0.0597	true	3	30		N	N
+H5	Customer 8	rs731236	UNKNOWN	-0.1394	-0.4861	422446.5	0	Undetermined	Auto	true	0.01	true	3	39	true	0.0024	true	3	39		N	N
+H6	Customer 16	rs1051266	UNKNOWN	-0.0643	-0.1327	441068.8125	0	Undetermined	Auto	true	0.0439	true	3	39	true	0.0317	true	3	39		N	Y
+H7	Customer 16	rs2070744	UNKNOWN	0.2035	2.673	421789.75	99.8998	Homozygous 2/2	Auto	true	0.0231	true	3	27	true	0.053	true	3	22		N	N
+H8	Customer 16	rs662799	UNKNOWN	0.6783	-0.5287	421280.9688	0	Undetermined	Auto	true	0.0138	true	3	26	true	0.1197	true	3	39		N	N
+H9	Customer 16	rs670	UNKNOWN	0.1257	-0.0575	440183.25	0	Undetermined	Auto	true	0.0169	true	3	33	true	0.0597	true	3	33		N	N
+H10	Customer 16	rs731236	UNKNOWN	-0.1378	-0.4785	427448.8438	0	Undetermined	Auto	true	0.01	true	3	29	true	0.0024	true	3	4		N	N
+H11																					N	N
+H12																					N	N

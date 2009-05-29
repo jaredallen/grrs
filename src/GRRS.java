@@ -12,13 +12,12 @@ public class GRRS {
 		ListIterator<String[]> iterator;
 		List<String[]> list;
 		CSVReader reader;
-		//ListIterator iterator;
 		String[] tokens;
 		int lineNumber = 0;
 		Test test;
 		
 		try {
-			file = new FileReader("test_data.txt");
+			file = new FileReader("full_test_data.txt");
 		} catch(FileNotFoundException ex) {
 			System.out.println(ex);
 			return;
@@ -31,12 +30,6 @@ public class GRRS {
 			System.out.println(ex);
 			return;
 		}
-		/*iterator = list.listIterator();
-		while(iterator.hasNext()) {
-			tokens = iterator.next();
-			System.out.print(++lineNumber + ": ");
-			System.out.println(tokens[0]);
-		}*/
 		test = new Test(list);
 		System.out.println(test);
 	}

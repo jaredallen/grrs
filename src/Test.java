@@ -6,15 +6,30 @@ public class Test {
 	static final String VALUE_PAIR_DELIMITER = "=";
 	static final String DATE_FORMAT = "yyyy-MM-dd HH:mm:ss aa zzz";
 	static final String RESULTS_MARKER = "[Results]";
+	static final int REPORT_SIZE = 105;
+	static final String WARNING = "** WARNING - Possible bad report format ** ";
+	static final String ERROR = "** ERROR - Bad report format **";
+	
 	Date date = null;
+	boolean isValid = true;
+	String warnings = "";
+	String errors = "";
+	
 	int numResults = 0;
 	List<String[]> list;
-	List<Snip> snips;
+	List<Snp> snps;
 	
 	public Test(List<String[]> list) {
 		this.list = list;
+		if(this.list.size() != REPORT_SIZE) {
+			String warning;
+			
+			warning = WARNING + " \nReport should have " + REPORT_SIZE + " lines" + " but has " + this.list.size();
+			this.warnings += warning;
+			System.out.println(warning);
+		}
 		this.date = getDate();
-		this.snips = getSnips();
+		this.snps = getSnps();
 	}
 	
 	public Date getDate() {
@@ -36,7 +51,12 @@ public class Test {
 					try {
 						this.date = formatter.parse(strDate);
 					} catch (ParseException ex) {
-						System.out.println(ex);
+						String error;
+						
+						this.isValid = false;
+						error = ERROR + "\nBad date format: \n" + ex;
+						this.errors += error;
+						System.out.println(error);
 					}
 				}
 			}
@@ -44,11 +64,11 @@ public class Test {
 		return this.date;
 	}
 	
-	public List<Snip> getSnips() {
+	public List<Snp> getSnps() {
 		ListIterator<String[]> iterator;
 		String[] tokens;
 
-		if(this.snips == null) {
+		if(this.snps == null) {
 			iterator = this.list.listIterator();
 			
 			//Move to the results marker
@@ -58,36 +78,36 @@ public class Test {
 			//Skip over column headers
 			iterator.next();
 			
-			this.snips = new ArrayList();
+			this.snps = new ArrayList();
 			while(iterator.hasNext()) {
-				this.snips.add(new Snip(iterator.next()));
+				this.snps.add(new Snp(iterator.next()));
 			}
-				
-			/*	
-			while(iterator.hasNext()) {
-				tokens = iterator.next();
-				if(tokens[0].startsWith(RESULTS_MARKER)) {
-					if(iterator.hasNext()) {
-						this.snips = new ArrayList();
-						//skip over column headers
-						iterator.next();
-						while(iterator.hasNext()) {
-							this.snips.add(new Snip(iterator.next()));
-						}
-					} else {
-						return null;
-					}
-				}
-			}*/
+			
+			if(this.snps == null) {
+				this.isValid = false;
+				this.errors += "\nReport contains no results";
+			}
 		}
-		return this.snips;		
+		return this.snps;		
+	}
+	
+	public boolean isValid() {
+		return this.isValid();
+	}
+	
+	public String getWarnings() {
+		return this.warnings;
+	}
+	
+	public String getErrors() {
+		return this.errors;
 	}
 	
 	public String toString() {
 		String output;
-		ListIterator<Snip> iterator;
+		ListIterator<Snp> iterator;
 		int snipNum;
-		Snip snip;
+		Snp snp;
 		
 		if(getDate() == null) {
 			output = "INVALID DATE";
@@ -96,18 +116,17 @@ public class Test {
 		}
 		
 		snipNum = 0;
-		output += "\n** SNIPS **\n";
-		if(getSnips() != null) {
-			iterator = getSnips().listIterator();
+		output += "\n** SNPs **\n";
+		if(getSnps() != null) {
+			iterator = getSnps().listIterator();
 			while(iterator.hasNext()) {
-				snip = iterator.next();
-				if(!snip.isEmpty()) {
-					output += "SNIP #" + ++snipNum + "\n";
-					output += snip.toString();
-				}
+				snp = iterator.next();
+				output += "SNP #";
+				output += ++snipNum + "\n";
+				output += snp.toString() + "\n";
 			}
 		} else {
-			output += "NO SNIPS FOUND.";
+			output += "NO SNPs FOUND.";
 		}
 		
 		return output;
